@@ -1,19 +1,20 @@
 package app;
 
-import colecta.CollectionRecord;
+import collection.CollectionRecord;
+import drive.MobileDriveTemplate;
+import drive.Schedule;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import jornada.MobileDriveTemplate;
-import jornada.Schedule;
-import modalidad.DonationModality;
-import modalidad.ModalityFactory;
-import modalidad.PlasmaApheresisFactory;
-import modalidad.PlateletApheresisFactory;
-import modalidad.WholeBloodFactory;
-import servicio.AptitudeEvaluation;
-import servicio.FefoAlertItem;
-import servicio.ModalitySummary;
+import modality.DonationModality;
+import modality.ModalityFactory;
+import modality.PlasmaApheresisFactory;
+import modality.PlateletApheresisFactory;
+import modality.WholeBloodFactory;
+import service.AptitudeEvaluation;
+import service.FefoAlertItem;
+import service.InventoryService;
+import service.ModalitySummary;
 
 public class Main {
 
